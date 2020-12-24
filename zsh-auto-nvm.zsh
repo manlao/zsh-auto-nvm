@@ -45,5 +45,7 @@ zsh-auto-nvm() {
   fi
 }
 
+zsh-auto-nvm
+
 autoload -Uz add-zsh-hook
 add-zsh-hook chpwd zsh-auto-nvm
